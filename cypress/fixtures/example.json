@@ -1,0 +1,12 @@
+{
+  "urlBase": "https://teste.picpay.com",
+  "headers": {
+    "Content-Type": "application/json",
+    "domain": "picpay"
+  },
+  "loginCorretoBody": {
+    "username": "teste@picpay.com",
+    "password": "123456",
+    "message": ""
+  }
+}
