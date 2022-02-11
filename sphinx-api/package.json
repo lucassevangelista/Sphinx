@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "start": "npm install cypress && npm install cypress-cucumber-preprocessor && npm install mysql && code . && npx cypress open",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "cypress:open": "cypress open"
+    },
+    "cypress-cucumber-preprocessor": {
+        "step_definitions": "cypress/support/steps"
+    },
+    "dependencies": {
+        "cypress": "^6.9.1",
+        "cypress-cucumber-preprocessor": "^4.3.0",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.3.0"
+    }
+}

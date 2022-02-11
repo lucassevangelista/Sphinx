@@ -1,0 +1,5 @@
+{
+    "baseUrl" : "http://authorization.ms.qa",
+    "testFiles": "**/*.feature",
+    "defaultCommandTimeout" : 20000
+}
