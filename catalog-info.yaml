@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Sphinx
+  tags:
+    - automation
+  description: |
+    Criação de um framework de automação de backend
+  links:
+    - url: https://picpay.atlassian.net/jira/software/c/projects/QABA/boards/1464
+      title: Jira Board
+      icon: dashboard
+    - url: https://picpay.atlassian.net/wiki/spaces/TP/pages/1052901869/Conhe+a+o+Chapter+de+QA
+      title: Confluence Docs
+      icon: dashboard
+  labels:
+    moonlight.picpay/language: nodejs
+    moonlight.picpay/framework: cypress
+    moonlight.picpay/monitoring: newrelic
+  annotations:
+    backstage.io/kubernetes-id: Sphinx
+    github.com/project-slug: PicPay/Sphinx
+    sonarqube.org/project-key: PicPay_Sphinx
+    newrelic.com/app-name: Sphinx
+    backstage.io/techdocs-ref: dir:.
+spec:
+  lifecycle: qa
+  owner: qa-experience
+  type: service
